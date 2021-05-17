@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+  color: coral;
+}
+form {
+  margin: 30px auto 10px;
+  text-align: center;
+}
+label input {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+label {
+  display: block;
+  width: 30px;
+  height: 30px;
+
+  margin: 10px auto;
+  line-height: 30px;
+  font-weight: bold;
+}
+label:hover {
+  background: rgb(114, 114, 224);
+  color: #000080;
+}
+.Home_ad {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
